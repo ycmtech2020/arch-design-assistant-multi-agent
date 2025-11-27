@@ -1,0 +1,29 @@
+# flask
+# openai
+# graphviz
+# httpx
+
+# # Replace requirements.txt exactly with:
+# cat > requirements.txt << 'EOF'
+flask
+openai
+graphviz
+httpx
+langchain
+langchain-openai
+langgraph
+python-dotenv
+pydantic
+
+
+# # Install
+# pip install -r requirements.txt
+
+# # Copy new files
+# cp app_v3.py app.py
+# cp index_v3.html templates/index.html
+# cp diagram_generator_v3.py diagram_generator.py
+# cp multi_agent_poc.py .
+
+# # Run
+# python app.py
